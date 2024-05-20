@@ -84,6 +84,7 @@ export const Recorder = (props: IRecorderProps) => {
             // remove listeners
             mediaRecorder.current.removeEventListener('start', onStart);
             mediaRecorder.current.removeEventListener('pause', onPause);
+            mediaRecorder.current.removeEventListener('resume', onResume);
             mediaRecorder.current.removeEventListener('dataavailable', onDataAvailable);
             mediaRecorder.current.removeEventListener('stop', onStop);
             mediaRecorder.current.removeEventListener('error', onError);
