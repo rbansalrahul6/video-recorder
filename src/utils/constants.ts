@@ -5,7 +5,7 @@ export const DEFAULT_USER_MEDIA_OPTS: MediaStreamConstraints = {
 
 export const DEFAULT_DISPLAY_MEDIA_OPTS: DisplayMediaStreamOptions = {
     video: true,
-    audio: false,
+    audio: true,
   };
 
 export const DEFAULT_FILE_NAME = 'video-recording';
