@@ -4,12 +4,12 @@ import { DEFAULT_USER_MEDIA_OPTS, DEFAULT_DISPLAY_MEDIA_OPTS, DEFAULT_FILE_NAME,
 import '../styles.css';
 
 export interface IRecorderProps {
-    width: string;
-    height: string;
-    mediaType?: 'camera' | 'screen';
-    showPreview?: boolean;
-    userMediaOpts?: MediaStreamConstraints;
-    displayMediaOpts?: DisplayMediaStreamOptions;
+    width: string; /** width of video frame */
+    height: string; /** height of video frame */
+    mediaType?: 'camera' | 'screen'; /** To select bewteen camera or screen recording */
+    showPreview?: boolean; /** To enable/disable preview */
+    userMediaOpts?: MediaStreamConstraints; /** options to configure audio/video support in camera recording */
+    displayMediaOpts?: DisplayMediaStreamOptions;  /** options to configure audio/video support in screen recording */
 }
 
 export const Recorder = (props: IRecorderProps) => {
