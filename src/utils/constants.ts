@@ -10,4 +10,6 @@ export const DEFAULT_DISPLAY_MEDIA_OPTS: DisplayMediaStreamOptions = {
 
 export const DEFAULT_FILE_NAME = 'video-recording';
 
+export const DEFAULT_ERROR_MSG = 'Something went wrong. Please try again later';
+
 

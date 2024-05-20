@@ -1,0 +1,21 @@
+.video-panel {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.control-button {
+    padding: 8px;
+}
+
+#download-btn {
+    display: block;
+    margin-top: 16px;
+}
